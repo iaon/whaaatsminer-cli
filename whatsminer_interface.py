@@ -2,7 +2,7 @@ import hashlib
 import base64
 import json
 import time
-from Crypto.Cipher import AES
+from Cryptodome.Cipher import AES
 from passlib.hash import md5_crypt
 
 class WhatsminerAPIv3:
